@@ -103,7 +103,7 @@ public:
         vportCount++;
     }
     virtual void addTextStyle(const DRW_Textstyle& data) {
-        textstyleCount++;
+        lineCount++;
     }
     virtual void addAppId(const DRW_AppId& data) {
         appidCount++;
